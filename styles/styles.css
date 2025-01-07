@@ -255,3 +255,41 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+
+h2 {
+  font-family: "Noto Sans JP";
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: .04rem;
+  line-height: 4.5rem;
+}
+
+p:has(picture) {
+  text-align: center;
+}
+
+.default-content-wrapper p:nth-of-type(6)::after {
+  content: "";
+  border-bottom: 1px solid black;
+  width: 75%;
+  display: block;
+  margin: 20px auto;
+}
+
+a:any-link {
+  color: #78050a;
+  text-decoration: underline;
+  font-size: 0.7em;
+}
+
+h3 {
+  text-align: center;
+}
+
+h3::after {
+  content: "";
+  border-bottom: 3px solid #007373;
+  width: 50px;
+  display: block;
+  margin: 20px auto 100px;
+}
